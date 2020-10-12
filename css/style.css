@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.alpha {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.project-cover2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/earth.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.project-cover3 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/btomiczine.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.project-cover4 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/kerakol.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.project-cover {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/striped.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container > h1 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #66ff33;
+  padding: 10px;
+}
+
+.container > h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: normal;
+  padding-top: 30px;
+}
+
+.container > h4 {
+  position: absolute;
+  bottom: 5%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  cursor: pointer;
+  color: white;
+  padding-top: 30px;
+}
+
+h4:hover {
+  background-color: #66ff33;
+  padding: 10px;
+}
+
+h4:hover + .alpha {
+  display: none;
+}
